@@ -5,6 +5,9 @@ public class Player {
     private int lives;
     private int level;
     private int score;
+    private Weapon weapon; //here Weapon is a class and weapon is the object of the class.
+
+
 
 public Player() {
     // here we can call this empty argument comstructor by using another keyword "this"
@@ -33,9 +36,10 @@ public Player(String handle , int startinglevel){
     //this.level = startinglevel;
     //this.score = 0;
     setHandleName(handle);
-    setLevel(3);
+    setLives(3);
     setLevel(startinglevel);
     setScore(0);
+    setdeafaultweapon();
 }
 public String getHandleName(){
     return handleName;
@@ -46,6 +50,9 @@ public void setHandleName(String handle){
         return;
     }
     this.handleName = handle;
+}
+private void setdeafaultweapon(){
+    this.weapon = new Weapon("sword" , 10, 20);
 }
 
 public void setNameAndLevel(String name , int level){
@@ -78,6 +85,14 @@ public void setNameAndLevel(String name , int level){
 
     public void setScore(int score) {
         this.score = score;
+    }
+
+    public Weapon getWeapon() {
+        return weapon;
+    }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
     }
 }
 

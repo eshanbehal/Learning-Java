@@ -60,6 +60,14 @@ KEEP CHECKING!!!!WILL BE UPDATED SOON..:)
 1. jst started today with learning more about the "this." notatuon in the constructors and the getters
    setters in order to call the instances of of classes with within the class itself.
 
+2. jst learnt about the concept of objects and method calling.
+
+   METHOD SIGNATURE: The concept of the name and parameter put together form this.
+           here signature is the name and that what needed to invoke their method.
+
+    under the METHOD CALLING - we create a another java class and call that class with
+    the help of the object in another java class. 
+
  
 
      ADDED THIS INFO MIGHT HELP BEGINNERS..:)
