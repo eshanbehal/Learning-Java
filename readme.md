@@ -66,7 +66,18 @@ KEEP CHECKING!!!!WILL BE UPDATED SOON..:)
            here signature is the name and that what needed to invoke their method.
 
     under the METHOD CALLING - we create a another java class and call that class with
-    the help of the object in another java class. 
+    the help of the object in another java class.
+
+3. just learnt a really confusing yet imp topic thats ARRAY LISTS AND ENUMS:
+
+   ARRAY LIST : storing a list of items that we can add things and remove things from
+       without having to worry about how many items are there.
+
+
+   ENUM : its a way of having multiple objects for something and where we know that there can
+       be only a few things that a field can have thats where its used.
+
+    
 
  
 

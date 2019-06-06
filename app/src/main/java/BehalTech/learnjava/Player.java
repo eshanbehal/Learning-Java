@@ -1,11 +1,14 @@
 package BehalTech.learnjava;
 
+import java.util.ArrayList;
+
 public class Player {
     private  String handleName;
     private int lives;
     private int level;
     private int score;
-    private Weapon weapon; //here Weapon is a class and weapon is the object of the class.
+    private Weapon weapon;//here Weapon is a class and weapon is the object of the class.
+    private ArrayList<Loot> inventory;
 
 
 
@@ -39,7 +42,8 @@ public Player(String handle , int startinglevel){
     setLives(3);
     setLevel(startinglevel);
     setScore(0);
-    setdeafaultweapon();
+    //setdeafaultweapon();
+    inventory= new ArrayList<>();
 }
 public String getHandleName(){
     return handleName;
@@ -93,6 +97,25 @@ public void setNameAndLevel(String name , int level){
 
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
+    }
+
+    public ArrayList<Loot> getInventory() {
+        return inventory;
+    }
+
+    //public void setInventory(ArrayList<Loot> inventory) {
+        //this.inventory = inventory;
+   // }
+    public void pickupLoot(Loot newLoot){
+    inventory.add(newLoot);
+    }
+    public boolean dropLoot(Loot loot){
+    if (this.inventory.contains(loot)){
+        inventory.remove(loot);
+        return true;
+
+        }
+    return false;
     }
 }
 
