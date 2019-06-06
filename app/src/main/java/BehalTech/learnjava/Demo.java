@@ -21,6 +21,8 @@ public class Demo {
         tim.pickupLoot(redPotion);
 
         tim.pickupLoot(new Loot("+3 CHEST ARMOR" , LootType.ARMOR , 80));
+        tim.pickupLoot(new Loot("LORD OF RINGS" , LootType.RING , 50));
+        tim.pickupLoot(new Loot("ARMOR OF FIST" , LootType.ARMOR , 60));
 
         tim.showInventory();
 
