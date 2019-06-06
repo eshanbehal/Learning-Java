@@ -42,7 +42,7 @@ public Player(String handle , int startinglevel){
     setLives(3);
     setLevel(startinglevel);
     setScore(0);
-    //setdeafaultweapon();
+    setdeafaultweapon();
     inventory= new ArrayList<>();
 }
 public String getHandleName(){
@@ -116,6 +116,13 @@ public void setNameAndLevel(String name , int level){
 
         }
     return false;
+    }
+
+    public void showInventory(){
+        for (Loot item : inventory){
+            System.out.println(item.getName());
+        }
+        System.out.println("=============================================");
     }
 }
 
