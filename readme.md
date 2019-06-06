@@ -77,6 +77,8 @@ KEEP CHECKING!!!!WILL BE UPDATED SOON..:)
    ENUM : its a way of having multiple objects for something and where we know that there can
        be only a few things that a field can have thats where its used.
 
+    AT last just learnt further more in detail about the working of the array list....
+
     
 
  
