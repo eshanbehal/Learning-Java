@@ -8,8 +8,13 @@ public class Demo {
         System.out.println("lives " + tim.getLives());
         //System.out.println(tim.getWeapon().getName()); //down there just wrote the code another
         //way its one and the same thing.
-        Weapon timsweapon = tim.getWeapon();
-        System.out.println(timsweapon.getName());
+        //Weapon timsweapon = tim.getWeapon();
+         System.out.println(tim.getWeapon().getName());
+
+         Weapon myAxe = new Weapon("GoldshineAxe" , 12 , 20);
+         tim.setWeapon(myAxe);
+        System.out.println(tim.getWeapon().getName());
+
 
 
     }
