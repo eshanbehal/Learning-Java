@@ -28,10 +28,10 @@ public Player(String handle){
     //called everytime.
 }
 public Player(String handle , int startinglevel){
-    handleName = handle;
-    lives = 3;
-    level = startinglevel;
-    score = 0;
+    this.handleName = handle;
+    this.lives = 3;
+    this.level = startinglevel;
+    this.score = 0;
 }
 public String getHandleName(){
     return handleName;
@@ -40,7 +40,7 @@ public void setHandleName(String handle){
     if(handle.length()<3 ){
         return;
     }
-    handleName = handle;
+    this.handleName = handle;
 }
 
 

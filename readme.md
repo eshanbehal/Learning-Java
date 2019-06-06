@@ -54,6 +54,12 @@ KEEP CHECKING!!!!WILL BE UPDATED SOON..:)
    Also learnt about "this" keyword used in here to call whatever matches the parameters 
    or the arguments that we have provided.
 
+
+   6th JUNE
+
+1. jst started today with learning more about the "this." notatuon in the constructors and the getters
+   setters in order to call the instances of of classes with within the class itself.
+
  
 
      ADDED THIS INFO MIGHT HELP BEGINNERS..:)
