@@ -28,19 +28,31 @@ public Player(String handle){
     //called everytime.
 }
 public Player(String handle , int startinglevel){
-    this.handleName = handle;
-    this.lives = 3;
-    this.level = startinglevel;
-    this.score = 0;
+    //this.handleName = handle;
+    //this.lives = 3;
+    //this.level = startinglevel;
+    //this.score = 0;
+    setHandleName(handle);
+    setLevel(3);
+    setLevel(startinglevel);
+    setScore(0);
 }
 public String getHandleName(){
     return handleName;
 }
 public void setHandleName(String handle){
     if(handle.length()<3 ){
+        System.out.println("The Name " +  handle + " is too short ,must be 3 characters long." );
         return;
     }
     this.handleName = handle;
+}
+
+public void setNameAndLevel(String name , int level){
+    //this.handleName = name;
+    //this.level = level;
+    setHandleName(name);
+    setLevel(level);
 }
 
 
