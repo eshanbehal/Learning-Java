@@ -79,6 +79,12 @@ KEEP CHECKING!!!!WILL BE UPDATED SOON..:)
 
     AT last just learnt further more in detail about the working of the array list....
 
+    Also learnt about the adding and deleting of some of the items from the array list created.
+    here used the concept of pickup , drop , and also adding the getters and setters for the new 
+    classe objects created with the help of constructors and getters and setters.
+
+
+
     
 
  
