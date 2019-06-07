@@ -3,7 +3,8 @@ Hey just started learning java for android.
 Will be adding some imp info when needed.
 
 
-KEEP CHECKING!!!!WILL BE UPDATED SOON..:)
+     KEEP CHECKING!!!!WILL BE UPDATED SOON..:)
+    ============================================
 
 1. Learned about java strings and int.
     
@@ -56,6 +57,7 @@ KEEP CHECKING!!!!WILL BE UPDATED SOON..:)
 
 
    6th JUNE
+  ============
 
 1. jst started today with learning more about the "this." notatuon in the constructors and the getters
    setters in order to call the instances of of classes with within the class itself.
@@ -95,6 +97,24 @@ KEEP CHECKING!!!!WILL BE UPDATED SOON..:)
 
    IN JAVA CLASSES CAN INHERIT DIRECTLY FROM ONLY ONE SUPERCLASS SO THE CLASS STRUCTURE ENDS UP BEING STRICTLY 
    HEIRARICHAL.
+
+3. Learnt about 2 of the very imp concepts along with the inheritance concept in the java coding while working on the
+   project player.game in java.
+
+   OVERLOADING AND OVERRIDING ANNOTATIONS: under overloading we create a method with the same name and different parameters
+   but in overriding we provide a different implementation to the method in the superclass.
+
+
+   Every class in java extends the object class so the object is at the very top of the class heirarchy.
+   
+   In the OVERRIDING we create a method same name , same return value and exactly the same parameters as the 
+   method defined in the superclass.
+
+
+
+
+
+    
 
 
 
