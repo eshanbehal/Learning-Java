@@ -22,7 +22,7 @@ public class Enemy {
     }
 
     public void showInfo(){
-        System.out.println("Names : " + this.name + "hitPoints : " + this.hitPoints + "Lives : " + this.lives );
+        System.out.println("Names :" + this.name + "hitPoints :" + this.hitPoints + " Lives :" +  this.lives );
     }
 
     public String getName() {
