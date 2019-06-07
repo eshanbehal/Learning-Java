@@ -12,6 +12,8 @@ public class Player {
 
 
 
+
+
 public Player() {
     // here we can call this empty argument comstructor by using another keyword "this"
     // that behaves as a method call
@@ -118,6 +120,16 @@ public void setNameAndLevel(String name , int level){
     return false;
     }
 
+    public boolean dropLoot(String lootname){
+    for (Loot currentLoot : inventory){
+        if(currentLoot.getName().equals(lootname)){
+            inventory.remove(currentLoot);
+            return true;
+
+        }
+    }return false;
+    }
+
     public void showInventory(){
         for (Loot item : inventory){
             System.out.println(item.getName());
@@ -136,5 +148,6 @@ public void setNameAndLevel(String name , int level){
     }
     return total;
     }
+
 }
 
