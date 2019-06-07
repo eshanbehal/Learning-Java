@@ -1,28 +1,4 @@
 package BehalTech.learnjava;
-
-
-public class Demo {
-    public static void main(String[] args) {
-        for(int i=0; i<10; i++){
-            VampyreKing vlad1 = new VampyreKing("vlad1 ");
-            vlad1.showInfo();
-            vlad1.takeDamage(12);
-            vlad1.showInfo();
-            while(vlad1.getLives() > 0){
-                if (vlad1.dodges()) {
-                    continue;
-                }
-                if(vlad1.ranAway()){
-                    System.out.println("vlad1 ran away...");
-
-                    break;
-                }else {
-                    vlad1.takeDamage(80);
-                    vlad1.showInfo();
-                }
-            }
-            System.out.println("==========================================================");
-        }
 //       Enemy enemy = new Enemy("test enemy " , 10 , 3);
 //        enemy.showInfo();
 //        enemy.takeDamage(3);
@@ -53,6 +29,31 @@ public class Demo {
 //        conan.showInventory();
 //
 //        System.out.println(conan.score());
+
+public class Demo {
+    public static void main(String[] args) {
+
+        VampyreKing vlad1 = new VampyreKing("vlad1 ");
+        vlad1.showInfo();
+
+        vlad1.setLives(0);
+
+        do {
+            if (vlad1.dodges()) {
+                vlad1.setLives(vlad1.getLives() + 1);
+                continue;
+            }
+            if (vlad1.ranAway()) {
+                System.out.println("vlad1 ran away...");
+
+                break;
+            } else {
+                vlad1.takeDamage(80);
+                vlad1.showInfo();
+            }
+        } while (vlad1.getLives() > 0);
+        System.out.println("==========================================================");
+
 
     }
 
