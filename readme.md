@@ -122,6 +122,14 @@ Will be adding some imp info when needed.
 5. Also learnt about the BREAK; and CONTINUE; condition in the java code while using a WHILE STATEMENT do produce a code 
     till some condition is met or it becomes false.
 
+6. further learnt about the other loops like FOR LOOPS , FOR EACH LOOPS, and do-while loops.and further used the concept of comparisons
+   of numbers and objects.
+
+   here learnt an amazing this about string comparisons ie strings cannot be compared like the numbers heree wqe use methods like
+   .equals to method on one string and then pass that string as an argument to the another string.
+
+===============================================================================================================================================================
+
  
 
 
