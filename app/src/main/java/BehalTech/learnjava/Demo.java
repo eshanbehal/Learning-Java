@@ -12,6 +12,11 @@ public class Demo {
         Troll uglyTroll = new Troll("uglyTroll");
         uglyTroll.showInfo();
         uglyTroll.takeDamage(30);
+
+        Vampyre vlad = new Vampyre("vlad");
+        vlad.showInfo();
+        vlad.takeDamage(8);
+        vlad.showInfo();
     }
 
 }
