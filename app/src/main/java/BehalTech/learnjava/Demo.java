@@ -17,6 +17,12 @@ public class Demo {
         vlad.showInfo();
         vlad.takeDamage(8);
         vlad.showInfo();
+
+        VampyreKing vlad1 = new VampyreKing("vlad1 ");
+        vlad1.showInfo();
+        vlad1.takeDamage(12);
+        vlad1.showInfo();
+
     }
 
 }
