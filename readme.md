@@ -84,6 +84,21 @@ KEEP CHECKING!!!!WILL BE UPDATED SOON..:)
     classe objects created with the help of constructors and getters and setters.
 
 
+    7th june: 
+   ===========
+
+1. just started off by learning the basics of inheritance in java:
+   In this we define a base class that objects are based on, things that are common for classes
+   that use that.Then we can allow a class to define the unique characterstics of itself just like in a game.
+
+2. So here we can have base class ,then somthing inherits from that to make it something else, make it UNIQUE.
+
+   IN JAVA CLASSES CAN INHERIT DIRECTLY FROM ONLY ONE SUPERCLASS SO THE CLASS STRUCTURE ENDS UP BEING STRICTLY 
+   HEIRARICHAL.
+
+
+
+
 
     
 
