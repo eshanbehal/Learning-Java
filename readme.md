@@ -110,6 +110,20 @@ Will be adding some imp info when needed.
    In the OVERRIDING we create a method same name , same return value and exactly the same parameters as the 
    method defined in the superclass.
 
+4. jst learnt about the repeating codes in java programming ie WHILE STATEMENT:
+                                                             ====================
+
+   WHILE STATEMENT: Its just the way of getting the comp repeat a series of steps either a predetermined time
+   until some condition is met.
+
+   This statement executes a code continually while a condition is true and  stops when the condition inside a expression 
+   becomes false.
+
+5. Also learnt about the BREAK; and CONTINUE; condition in the java code while using a WHILE STATEMENT do produce a code 
+    till some condition is met or it becomes false.
+
+ 
+
 
 
 
